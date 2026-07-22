@@ -29,9 +29,6 @@ Digital-Clock/
 └── README.md
 ```
 
-## 🚀 How to Run
-
-
 ## 📚 What I Learned
 
 While building this project, I practiced:
