@@ -1,0 +1,109 @@
+/* Global Reset*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/*  Body */
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+
+    background:#FFEEF4;
+
+    color:#963060;
+
+}
+
+/* Clock Card*/
+
+#container{
+
+    width:340px;
+
+    min-height:190px;
+
+    background:#FFD6E7;
+
+    border:1px solid rgb(131,38,103);
+
+    border-radius:18px;
+
+    padding:35px 22px 22px;
+
+    text-align:center;
+
+    position:relative;
+
+    overflow:visible;
+
+    box-shadow:
+        0 12px 30px rgba(168, 84, 136, 0.35);
+}
+
+
+/* Heading*/
+
+h1{
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+/*  Date */
+
+#date{
+
+    margin-top:8px;
+
+    font-size:.95rem;
+
+    font-weight:500;
+
+    color:#8A4E6D;
+
+}
+
+/*  Time */
+
+#timeDisplay{
+
+    margin-top:12px;
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+}
+   /* Teddy Image */
+.teddy{
+
+    width:160px;
+
+    position:absolute;
+
+    top:-125px;
+
+    right:-10px;
+
+    user-select:none;
+
+    pointer-events:none;
+    
+    z-index: -1;
+}
